@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: #fff;
+    height: 100%;
+    width: 70%;
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    margin: 150px auto 0;
+    box-shadow: 5px 5px 20px 5px rgb(198, 199, 199);
+}
+.header{
+    font-size: 13px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.input{
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+.input input{
+    outline: none;
+    width: 95%;
+    height: 39px;
+    border: 1px solid #999;
+    padding: 0 9px;
+    font-size: 16px;
+}
+input::placeholder{
+    color: #999;
+    font-style: italic;
+}
+.input button{
+    color: white;
+    background-color: red;
+    width: 16%;
+    border: none;
+    font-size: 25px;
+}
+.input button:hover{
+    background-color: rgba(255, 0, 0, 0.664);
+    transition: 0.3s;
+}
+li{
+    list-style-type: none;
+    background-color: #eee;
+    padding: 12px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 19px;
+    overflow-wrap: break-word;
+    position: relative;
+}
+li:hover{
+    background-color: #999;
+}
+.close{
+    border: none;
+    font-size: 30px;
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background-color: transparent;
+    padding: 0 9px;;
+}
+.footer button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 13px 30px;
+    font-size: 15px;
+    border-radius: 9px;
+    font-weight: 700;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+.footer button:hover{
+    background-color: rgba(255, 0, 0, 0.664);
+    transition: 0.3s;
+}
